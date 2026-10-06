@@ -1,0 +1,48 @@
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sg_60  seed=42 M1: LB=1001.81 UB=1039.76 gap=3.65%
+LEG sg_60  seed=42 M2: LB=1013.83 UB=1039.76 gap=2.49%
+LEG sg_60  seed=42 M3: LB=1001.81 UB=1039.76 gap=3.65%
+LEG sg_60  seed=42 M4: LB=1013.83 UB=1039.76 gap=2.49%
+LEG sg_60  seed=42 times: base=447s cert_post=103s kernel=251s sites=68 cert_gain=12.02 kJ kernel_gain=0.00 kJ
+LEG sg_90  seed=42 M1: LB=1652.04 UB=1738.15 gap=4.95%
+LEG sg_90  seed=42 M2: LB=1652.04 UB=1738.15 gap=4.95%
+LEG sg_90  seed=42 M3: LB=1652.04 UB=1727.38 gap=4.36%
+LEG sg_90  seed=42 M4: LB=1652.04 UB=1727.38 gap=4.36%
+LEG sg_90  seed=42 times: base=1001s cert_post=17s kernel=500s sites=35 cert_gain=0.00 kJ kernel_gain=10.76 kJ
+LEG sg_120  seed=42 M1: LB=2209.23 UB=2335.58 gap=5.41%
+LEG sg_120  seed=42 M2: LB=2209.23 UB=2335.58 gap=5.41%
+LEG sg_120  seed=42 M3: LB=2209.23 UB=2325.08 gap=4.98%
+LEG sg_120  seed=42 M4: LB=2209.23 UB=2325.08 gap=4.98%
+LEG sg_120  seed=42 times: base=2003s cert_post=35s kernel=1001s sites=61 cert_gain=0.00 kJ kernel_gain=10.50 kJ
+LEG sz_60  seed=42 M1: LB=1082.27 UB=1134.11 gap=4.57%
+LEG sz_60  seed=42 M2: LB=1103.66 UB=1134.11 gap=2.69%
+LEG sz_60  seed=42 M3: LB=1082.27 UB=1130.49 gap=4.27%
+LEG sz_60  seed=42 M4: LB=1103.66 UB=1130.49 gap=2.37%
+LEG sz_60  seed=42 times: base=459s cert_post=105s kernel=250s sites=68 cert_gain=21.39 kJ kernel_gain=3.63 kJ
+LEG sz_90  seed=42 M1: LB=1692.44 UB=1789.02 gap=5.40%
+LEG sz_90  seed=42 M2: LB=1692.44 UB=1789.02 gap=5.40%
+LEG sz_90  seed=42 M3: LB=1692.44 UB=1772.34 gap=4.51%
+LEG sz_90  seed=42 M4: LB=1692.44 UB=1772.34 gap=4.51%
+LEG sz_90  seed=42 times: base=1005s cert_post=65s kernel=501s sites=21 cert_gain=0.00 kJ kernel_gain=16.69 kJ
+LEG sz_120  seed=42 M1: LB=2017.08 UB=2143.36 gap=5.89%
+LEG sz_120  seed=42 M2: LB=2017.08 UB=2143.36 gap=5.89%
+LEG sz_120  seed=42 M3: LB=2017.08 UB=2131.68 gap=5.38%
+LEG sz_120  seed=42 M4: LB=2017.08 UB=2131.68 gap=5.38%
+LEG sz_120  seed=42 times: base=2007s cert_post=55s kernel=1000s sites=53 cert_gain=0.00 kJ kernel_gain=11.68 kJ
+LEG sh_60  seed=42 M1: LB=997.76 UB=1153.15 gap=13.48%
+LEG sh_60  seed=42 M2: LB=997.76 UB=1153.15 gap=13.48%
+LEG sh_60  seed=42 M3: LB=997.76 UB=1153.15 gap=13.48%
+LEG sh_60  seed=42 M4: LB=997.76 UB=1153.15 gap=13.48%
+LEG sh_60  seed=42 times: base=504s cert_post=108s kernel=250s sites=82 cert_gain=0.00 kJ kernel_gain=0.00 kJ
+LEG sh_90  seed=42 M1: LB=1724.50 UB=1945.83 gap=11.37%
+LEG sh_90  seed=42 M2: LB=1724.50 UB=1945.83 gap=11.37%
+LEG sh_90  seed=42 M3: LB=1724.50 UB=1908.53 gap=9.64%
+LEG sh_90  seed=42 M4: LB=1724.50 UB=1908.53 gap=9.64%
+LEG sh_90  seed=42 times: base=1013s cert_post=38s kernel=502s sites=24 cert_gain=0.00 kJ kernel_gain=37.31 kJ
+LEG sh_120  seed=42 M1: LB=2287.37 UB=2691.12 gap=15.00%
+LEG sh_120  seed=42 M2: LB=2287.37 UB=2691.12 gap=15.00%
+LEG sh_120  seed=42 M3: LB=2287.37 UB=2616.87 gap=12.59%
+LEG sh_120  seed=42 M4: LB=2287.37 UB=2616.87 gap=12.59%
+LEG sh_120  seed=42 times: base=2006s cert_post=64s kernel=1001s sites=12 cert_gain=0.00 kJ kernel_gain=74.25 kJ
+saved -> results\logs\ablation4_post.json

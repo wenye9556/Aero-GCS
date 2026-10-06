@@ -1,0 +1,91 @@
+{
+ "meta": {
+  "note": "P1 per-instance fields cited by paper §5.4 (marginal energy 22.7–34.7 kJ per full load, convexity share 0.97–1.00). Extracted verbatim from the v1 model-experiment archive (untracked local 实验结果/model_experiments.json); values independently replay-verified digit-for-digit by two audit sessions on 2026-10-07.",
+  "extracted": "2026-10-07"
+ },
+ "P1": {
+  "per_instance": {
+   "sg_60": {
+    "arcs": 300,
+    "full_over_empty_ratio_mean": 1.7125339788604756,
+    "full_over_empty_ratio_p95": 1.8179714063042929,
+    "marginal_kJ_per_fullload_mean": 22.66325302091684,
+    "convex_share": 0.9766666666666667,
+    "convex_arcs": 293,
+    "mono_violations": 0
+   },
+   "sg_90": {
+    "arcs": 300,
+    "full_over_empty_ratio_mean": 1.7105641307780222,
+    "full_over_empty_ratio_p95": 1.8177045505116467,
+    "marginal_kJ_per_fullload_mean": 23.92100317478482,
+    "convex_share": 0.9833333333333333,
+    "convex_arcs": 295,
+    "mono_violations": 0
+   },
+   "sg_120": {
+    "arcs": 300,
+    "full_over_empty_ratio_mean": 1.7077494458508982,
+    "full_over_empty_ratio_p95": 1.8265247057028942,
+    "marginal_kJ_per_fullload_mean": 23.724227922719457,
+    "convex_share": 0.98,
+    "convex_arcs": 294,
+    "mono_violations": 0
+   },
+   "sz_60": {
+    "arcs": 300,
+    "full_over_empty_ratio_mean": 1.6926849264191979,
+    "full_over_empty_ratio_p95": 1.825881948906685,
+    "marginal_kJ_per_fullload_mean": 28.79720984668127,
+    "convex_share": 0.9866666666666667,
+    "convex_arcs": 296,
+    "mono_violations": 0
+   },
+   "sz_90": {
+    "arcs": 300,
+    "full_over_empty_ratio_mean": 1.7066756668892837,
+    "full_over_empty_ratio_p95": 1.8286273275655118,
+    "marginal_kJ_per_fullload_mean": 27.091165574886812,
+    "convex_share": 1.0,
+    "convex_arcs": 300,
+    "mono_violations": 0
+   },
+   "sz_120": {
+    "arcs": 300,
+    "full_over_empty_ratio_mean": 1.705563520794966,
+    "full_over_empty_ratio_p95": 1.8446057852936122,
+    "marginal_kJ_per_fullload_mean": 27.559750836504264,
+    "convex_share": 0.99,
+    "convex_arcs": 297,
+    "mono_violations": 0
+   },
+   "sh_60": {
+    "arcs": 300,
+    "full_over_empty_ratio_mean": 1.7224665464295852,
+    "full_over_empty_ratio_p95": 1.8519309753173225,
+    "marginal_kJ_per_fullload_mean": 34.72425325315158,
+    "convex_share": 0.9733333333333334,
+    "convex_arcs": 292,
+    "mono_violations": 0
+   },
+   "sh_90": {
+    "arcs": 300,
+    "full_over_empty_ratio_mean": 1.7281783618561546,
+    "full_over_empty_ratio_p95": 1.8634513953186183,
+    "marginal_kJ_per_fullload_mean": 33.80199894845309,
+    "convex_share": 0.9866666666666667,
+    "convex_arcs": 296,
+    "mono_violations": 0
+   },
+   "sh_120": {
+    "arcs": 300,
+    "full_over_empty_ratio_mean": 1.7213732327996358,
+    "full_over_empty_ratio_p95": 1.8499296310701476,
+    "marginal_kJ_per_fullload_mean": 31.183187183946036,
+    "convex_share": 0.99,
+    "convex_arcs": 297,
+    "mono_violations": 0
+   }
+  }
+ }
+}

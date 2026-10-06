@@ -1,0 +1,133 @@
+四臂消融战役（用户指令 2026-10-01）：9 算例 × 4 臂 = 36 腿（生产腿，种子 42）。
+
+臂定义（跑前写死；基础 = 纯引擎默认，所有组件关）：
+  base : 基础算法（ng_endgame 按城市口径，其余全默认）
+  A    : base + LB 组件（分级证书器，逐格部署形态）
+         - 6 legacy 格：cert_grid=1020 + cert_max_calls=8（解耦形态，det 6/6 过门）
+         - SG120/SZ120：dp_mode=frontier + dp_grid=1020（耦合形态，此前已采纳）
+  B    : base + UB 组件（LARR 搜索内重排, larr=True）
+  full : base + A + B（两组件同开）
+
+口径声明：
+  - 这是报告型战役（消融表），非采纳裁决；单变量步进相对 base。
+  - 生产腿按时间预算驱动（anytime 算法）：60n=500s、90/120n=1000s，
+    wall ≈ 预算+结算开销；"求解时间"列直接报告各腿 wall。
+  - 已知噪声带（诚实标注）：90/120n 生产配对 UB/LB 彩票 ±20~35 kJ（共享
+    负载墙钟调度）；60n 同会话近似逐位确定。LB 组件的证书级证据在 det
+    仪器（cert_kernel/cert_ext 两战役，6/6 过门，ΔUB 逐位 0）。
+  - full 臂 ≠ 官方采纳档（采纳档另含历史采纳的内部参数 t2b200/astar/insert
+    等，见 run_current_algorithm.py 采纳表）——消融表隔离的是两个标题组件。
+
+启动守卫：等待 cert_prod 收官（自旋等待, 上限 3h），顺序禁并发。
+日志：实验结果/ablation4.log。
+
+[09:54:56] === ABLATION4 campaign start (arms pre-registered above) ===
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sg_60 base seed=42 : LB=1004.02 UB=1034.85 gap=2.98% iters=184 cert=0 larr_gain=0.00 wall=451s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sg_60 A seed=42 : LB=1018.96 UB=1034.85 gap=1.54% iters=167 cert=6 larr_gain=0.00 wall=454s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sg_60 B seed=42 : LB=1004.02 UB=1034.85 gap=2.98% iters=178 cert=0 larr_gain=54.26 wall=454s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sg_60 full seed=42 : LB=1019.54 UB=1034.85 gap=1.48% iters=166 cert=6 larr_gain=53.19 wall=460s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sz_60 base seed=42 : LB=1058.97 UB=1167.78 gap=9.32% iters=166 cert=0 larr_gain=0.00 wall=500s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sz_60 A seed=42 : LB=1081.29 UB=1146.51 gap=5.69% iters=161 cert=2 larr_gain=0.00 wall=500s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sz_60 B seed=42 : LB=1073.34 UB=1144.75 gap=6.24% iters=167 cert=0 larr_gain=64.66 wall=506s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sz_60 full seed=42 : LB=1073.56 UB=1154.90 gap=7.04% iters=161 cert=2 larr_gain=39.16 wall=504s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sh_60 base seed=42 : LB=1058.27 UB=1158.13 gap=8.62% iters=179 cert=0 larr_gain=0.00 wall=501s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sh_60 A seed=42 : LB=1078.56 UB=1198.13 gap=9.98% iters=168 cert=2 larr_gain=0.00 wall=500s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sh_60 B seed=42 : LB=1058.27 UB=1186.67 gap=10.82% iters=178 cert=0 larr_gain=196.15 wall=505s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sh_60 full seed=42 : LB=1058.27 UB=1171.13 gap=9.64% iters=169 cert=2 larr_gain=214.84 wall=509s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sg_90 base seed=42 : LB=1630.48 UB=1760.27 gap=7.37% iters=303 cert=0 larr_gain=0.00 wall=1002s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sg_90 A seed=42 : LB=1635.87 UB=1724.77 gap=5.15% iters=291 cert=3 larr_gain=0.00 wall=1001s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sg_90 B seed=42 : LB=1630.48 UB=1743.06 gap=6.46% iters=288 cert=0 larr_gain=163.28 wall=1003s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sg_90 full seed=42 : LB=1625.88 UB=1715.21 gap=5.21% iters=307 cert=3 larr_gain=81.83 wall=1002s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sz_90 base seed=42 : LB=1685.61 UB=1783.62 gap=5.50% iters=299 cert=0 larr_gain=0.00 wall=1001s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sz_90 A seed=42 : LB=1694.06 UB=1811.80 gap=6.50% iters=277 cert=4 larr_gain=0.00 wall=1003s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sz_90 B seed=42 : LB=1657.52 UB=1776.16 gap=6.68% iters=261 cert=0 larr_gain=237.73 wall=1002s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sz_90 full seed=42 : LB=1692.34 UB=1784.00 gap=5.14% iters=275 cert=3 larr_gain=174.50 wall=1001s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sh_90 base seed=42 : LB=1732.51 UB=1849.13 gap=6.31% iters=238 cert=0 larr_gain=0.00 wall=1014s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sh_90 A seed=42 : LB=1738.66 UB=1839.77 gap=5.50% iters=245 cert=3 larr_gain=0.00 wall=1006s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sh_90 B seed=42 : LB=1721.15 UB=1864.89 gap=7.71% iters=264 cert=0 larr_gain=273.54 wall=1003s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sh_90 full seed=42 : LB=1743.49 UB=1852.14 gap=5.87% iters=254 cert=3 larr_gain=316.51 wall=1003s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sg_120 base seed=42 : LB=2172.43 UB=2343.84 gap=7.31% iters=263 cert=0 larr_gain=0.00 wall=1004s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sg_120 A seed=42 : LB=2236.17 UB=2341.75 gap=4.51% iters=251 cert=0 larr_gain=0.00 wall=846s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sg_120 B seed=42 : LB=2184.11 UB=2416.27 gap=9.61% iters=266 cert=0 larr_gain=326.20 wall=1001s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sg_120 full seed=42 : LB=2249.58 UB=2388.67 gap=5.82% iters=308 cert=0 larr_gain=406.13 wall=1001s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sz_120 base seed=42 : LB=1988.06 UB=2153.42 gap=7.68% iters=279 cert=0 larr_gain=0.00 wall=1001s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sz_120 A seed=42 : LB=2030.39 UB=2152.74 gap=5.68% iters=287 cert=0 larr_gain=0.00 wall=1007s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sz_120 B seed=42 : LB=1988.06 UB=2171.58 gap=8.45% iters=286 cert=0 larr_gain=376.64 wall=1004s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sz_120 full seed=42 : LB=2030.39 UB=2147.01 gap=5.43% iters=295 cert=0 larr_gain=297.52 wall=1002s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sh_120 base seed=42 : LB=2167.60 UB=2630.39 gap=17.59% iters=237 cert=0 larr_gain=0.00 wall=1003s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sh_120 A seed=42 : LB=2270.15 UB=2621.06 gap=13.39% iters=212 cert=2 larr_gain=0.00 wall=1002s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sh_120 B seed=42 : LB=2206.91 UB=2614.09 gap=15.58% iters=233 cert=0 larr_gain=425.46 wall=1001s
+scipy\__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+LEG sh_120 full seed=42 : LB=2159.69 UB=2623.54 gap=17.68% iters=221 cert=2 larr_gain=309.74 wall=1012s
+[18:11:32] CAMPAIGN COMPLETE — ablation table ready.

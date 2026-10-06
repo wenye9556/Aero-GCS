@@ -1,0 +1,626 @@
+{
+  "ub_kJ": 1039.7596,
+  "routes": [
+    {
+      "sequence": [
+        0,
+        59,
+        44,
+        51,
+        49,
+        23,
+        14,
+        22,
+        58,
+        16,
+        15,
+        36,
+        10,
+        52,
+        0
+      ],
+      "load_g": 957,
+      "cost_kJ": 224.673,
+      "legs": [
+        {
+          "u": 0,
+          "v": 59,
+          "load_g": 957,
+          "branch": "direct",
+          "flight_J": 6429.373,
+          "hover_J": 12729.797
+        },
+        {
+          "u": 59,
+          "v": 44,
+          "load_g": 884,
+          "branch": "direct",
+          "flight_J": 2654.129,
+          "hover_J": 12267.344
+        },
+        {
+          "u": 44,
+          "v": 51,
+          "load_g": 810,
+          "branch": "direct",
+          "flight_J": 1315.603,
+          "hover_J": 11804.415
+        },
+        {
+          "u": 51,
+          "v": 49,
+          "load_g": 717,
+          "branch": "direct",
+          "flight_J": 6634.2,
+          "hover_J": 11231.107
+        },
+        {
+          "u": 49,
+          "v": 23,
+          "load_g": 649,
+          "branch": "overtop",
+          "flight_J": 3642.875,
+          "hover_J": 13908.828
+        },
+        {
+          "u": 23,
+          "v": 14,
+          "load_g": 585,
+          "branch": "overtop",
+          "flight_J": 4190.686,
+          "hover_J": 13415.005
+        },
+        {
+          "u": 14,
+          "v": 22,
+          "load_g": 500,
+          "branch": "overtop",
+          "flight_J": 5916.826,
+          "hover_J": 12768.414
+        },
+        {
+          "u": 22,
+          "v": 58,
+          "load_g": 413,
+          "branch": "overtop",
+          "flight_J": 7212.128,
+          "hover_J": 9424.899
+        },
+        {
+          "u": 58,
+          "v": 16,
+          "load_g": 353,
+          "branch": "overtop",
+          "flight_J": 3957.452,
+          "hover_J": 11675.635
+        },
+        {
+          "u": 16,
+          "v": 15,
+          "load_g": 267,
+          "branch": "overtop",
+          "flight_J": 9204.943,
+          "hover_J": 11051.596
+        },
+        {
+          "u": 15,
+          "v": 36,
+          "load_g": 194,
+          "branch": "direct",
+          "flight_J": 598.699,
+          "hover_J": 9360.826
+        },
+        {
+          "u": 36,
+          "v": 10,
+          "load_g": 128,
+          "branch": "overtop",
+          "flight_J": 13073.636,
+          "hover_J": 10067.453
+        },
+        {
+          "u": 10,
+          "v": 52,
+          "load_g": 66,
+          "branch": "overtop",
+          "flight_J": 8166.886,
+          "hover_J": 7496.57
+        },
+        {
+          "u": 52,
+          "v": 0,
+          "load_g": 0,
+          "branch": "direct",
+          "flight_J": 4467.233,
+          "hover_J": 0.0
+        }
+      ]
+    },
+    {
+      "sequence": [
+        0,
+        54,
+        35,
+        40,
+        34,
+        13,
+        12,
+        11,
+        47,
+        43,
+        31,
+        5,
+        2,
+        0
+      ],
+      "load_g": 959,
+      "cost_kJ": 210.798,
+      "legs": [
+        {
+          "u": 0,
+          "v": 54,
+          "load_g": 959,
+          "branch": "direct",
+          "flight_J": 5840.037,
+          "hover_J": 12742.547
+        },
+        {
+          "u": 54,
+          "v": 35,
+          "load_g": 855,
+          "branch": "direct",
+          "flight_J": 9300.842,
+          "hover_J": 13811.679
+        },
+        {
+          "u": 35,
+          "v": 40,
+          "load_g": 761,
+          "branch": "bypass",
+          "flight_J": 4688.261,
+          "hover_J": 13144.187
+        },
+        {
+          "u": 40,
+          "v": 34,
+          "load_g": 708,
+          "branch": "bypass",
+          "flight_J": 5625.996,
+          "hover_J": 12772.723
+        },
+        {
+          "u": 34,
+          "v": 13,
+          "load_g": 626,
+          "branch": "bypass",
+          "flight_J": 6747.902,
+          "hover_J": 13730.676
+        },
+        {
+          "u": 13,
+          "v": 12,
+          "load_g": 532,
+          "branch": "overtop",
+          "flight_J": 7838.247,
+          "hover_J": 13010.586
+        },
+        {
+          "u": 12,
+          "v": 11,
+          "load_g": 432,
+          "branch": "direct",
+          "flight_J": 168.892,
+          "hover_J": 12258.862
+        },
+        {
+          "u": 11,
+          "v": 47,
+          "load_g": 369,
+          "branch": "overtop",
+          "flight_J": 11434.636,
+          "hover_J": 9172.326
+        },
+        {
+          "u": 47,
+          "v": 43,
+          "load_g": 274,
+          "branch": "bypass",
+          "flight_J": 6069.864,
+          "hover_J": 8634.859
+        },
+        {
+          "u": 43,
+          "v": 31,
+          "load_g": 197,
+          "branch": "overtop",
+          "flight_J": 3367.466,
+          "hover_J": 9379.699
+        },
+        {
+          "u": 31,
+          "v": 5,
+          "load_g": 137,
+          "branch": "overtop",
+          "flight_J": 1139.025,
+          "hover_J": 10130.245
+        },
+        {
+          "u": 5,
+          "v": 2,
+          "load_g": 68,
+          "branch": "overtop",
+          "flight_J": 2684.918,
+          "hover_J": 9652.189
+        },
+        {
+          "u": 2,
+          "v": 0,
+          "load_g": 0,
+          "branch": "overtop",
+          "flight_J": 7447.306,
+          "hover_J": 0.0
+        }
+      ]
+    },
+    {
+      "sequence": [
+        0,
+        41,
+        55,
+        53,
+        50,
+        26,
+        9,
+        8,
+        6,
+        38,
+        33,
+        32,
+        37,
+        0
+      ],
+      "load_g": 938,
+      "cost_kJ": 183.652,
+      "legs": [
+        {
+          "u": 0,
+          "v": 41,
+          "load_g": 938,
+          "branch": "bypass",
+          "flight_J": 12561.637,
+          "hover_J": 14410.153
+        },
+        {
+          "u": 41,
+          "v": 55,
+          "load_g": 852,
+          "branch": "direct",
+          "flight_J": 4057.166,
+          "hover_J": 12066.43
+        },
+        {
+          "u": 55,
+          "v": 53,
+          "load_g": 745,
+          "branch": "direct",
+          "flight_J": 299.319,
+          "hover_J": 11402.714
+        },
+        {
+          "u": 53,
+          "v": 50,
+          "load_g": 647,
+          "branch": "direct",
+          "flight_J": 775.353,
+          "hover_J": 10805.905
+        },
+        {
+          "u": 50,
+          "v": 26,
+          "load_g": 572,
+          "branch": "overtop",
+          "flight_J": 10467.502,
+          "hover_J": 11835.934
+        },
+        {
+          "u": 26,
+          "v": 9,
+          "load_g": 476,
+          "branch": "overtop",
+          "flight_J": 6532.975,
+          "hover_J": 12587.783
+        },
+        {
+          "u": 9,
+          "v": 8,
+          "load_g": 406,
+          "branch": "direct",
+          "flight_J": 115.205,
+          "hover_J": 12065.868
+        },
+        {
+          "u": 8,
+          "v": 6,
+          "load_g": 328,
+          "branch": "overtop",
+          "flight_J": 3200.758,
+          "hover_J": 11493.052
+        },
+        {
+          "u": 6,
+          "v": 38,
+          "load_g": 242,
+          "branch": "overtop",
+          "flight_J": 621.777,
+          "hover_J": 9664.305
+        },
+        {
+          "u": 38,
+          "v": 33,
+          "load_g": 171,
+          "branch": "overtop",
+          "flight_J": 818.859,
+          "hover_J": 9216.557
+        },
+        {
+          "u": 33,
+          "v": 32,
+          "load_g": 107,
+          "branch": "overtop",
+          "flight_J": 1658.525,
+          "hover_J": 8819.065
+        },
+        {
+          "u": 32,
+          "v": 37,
+          "load_g": 50,
+          "branch": "overtop",
+          "flight_J": 2824.403,
+          "hover_J": 8470.001
+        },
+        {
+          "u": 37,
+          "v": 0,
+          "load_g": 0,
+          "branch": "direct",
+          "flight_J": 6876.547,
+          "hover_J": 0.0
+        }
+      ]
+    },
+    {
+      "sequence": [
+        0,
+        45,
+        3,
+        4,
+        30,
+        28,
+        1,
+        7,
+        29,
+        57,
+        46,
+        0
+      ],
+      "load_g": 844,
+      "cost_kJ": 155.819,
+      "legs": [
+        {
+          "u": 0,
+          "v": 45,
+          "load_g": 844,
+          "branch": "direct",
+          "flight_J": 6577.393,
+          "hover_J": 12016.375
+        },
+        {
+          "u": 45,
+          "v": 3,
+          "load_g": 746,
+          "branch": "direct",
+          "flight_J": 3238.74,
+          "hover_J": 14668.533
+        },
+        {
+          "u": 3,
+          "v": 4,
+          "load_g": 656,
+          "branch": "overtop",
+          "flight_J": 5653.004,
+          "hover_J": 13963.2
+        },
+        {
+          "u": 4,
+          "v": 30,
+          "load_g": 548,
+          "branch": "overtop",
+          "flight_J": 1093.886,
+          "hover_J": 11673.102
+        },
+        {
+          "u": 30,
+          "v": 28,
+          "load_g": 496,
+          "branch": "overtop",
+          "flight_J": 2071.735,
+          "hover_J": 11322.888
+        },
+        {
+          "u": 28,
+          "v": 1,
+          "load_g": 402,
+          "branch": "overtop",
+          "flight_J": 4283.574,
+          "hover_J": 12036.268
+        },
+        {
+          "u": 1,
+          "v": 7,
+          "load_g": 305,
+          "branch": "overtop",
+          "flight_J": 7995.746,
+          "hover_J": 11325.925
+        },
+        {
+          "u": 7,
+          "v": 29,
+          "load_g": 214,
+          "branch": "bypass",
+          "flight_J": 3605.007,
+          "hover_J": 9486.883
+        },
+        {
+          "u": 29,
+          "v": 57,
+          "load_g": 126,
+          "branch": "direct",
+          "flight_J": 2441.073,
+          "hover_J": 7819.403
+        },
+        {
+          "u": 57,
+          "v": 46,
+          "load_g": 65,
+          "branch": "direct",
+          "flight_J": 4525.736,
+          "hover_J": 7491.228
+        },
+        {
+          "u": 46,
+          "v": 0,
+          "load_g": 0,
+          "branch": "direct",
+          "flight_J": 2525.88,
+          "hover_J": 0.0
+        }
+      ]
+    },
+    {
+      "sequence": [
+        0,
+        56,
+        48,
+        19,
+        27,
+        39,
+        24,
+        21,
+        20,
+        18,
+        17,
+        42,
+        25,
+        0
+      ],
+      "load_g": 979,
+      "cost_kJ": 264.817,
+      "legs": [
+        {
+          "u": 0,
+          "v": 56,
+          "load_g": 979,
+          "branch": "direct",
+          "flight_J": 11306.637,
+          "hover_J": 12870.281
+        },
+        {
+          "u": 56,
+          "v": 48,
+          "load_g": 909,
+          "branch": "direct",
+          "flight_J": 1837.045,
+          "hover_J": 12425.076
+        },
+        {
+          "u": 48,
+          "v": 19,
+          "load_g": 818,
+          "branch": "overtop",
+          "flight_J": 19643.082,
+          "hover_J": 15241.082
+        },
+        {
+          "u": 19,
+          "v": 27,
+          "load_g": 754,
+          "branch": "overtop",
+          "flight_J": 15632.459,
+          "hover_J": 13094.923
+        },
+        {
+          "u": 27,
+          "v": 39,
+          "load_g": 688,
+          "branch": "overtop",
+          "flight_J": 9952.612,
+          "hover_J": 12633.473
+        },
+        {
+          "u": 39,
+          "v": 24,
+          "load_g": 630,
+          "branch": "overtop",
+          "flight_J": 4624.414,
+          "hover_J": 13761.604
+        },
+        {
+          "u": 24,
+          "v": 21,
+          "load_g": 560,
+          "branch": "overtop",
+          "flight_J": 16290.991,
+          "hover_J": 13223.727
+        },
+        {
+          "u": 21,
+          "v": 20,
+          "load_g": 459,
+          "branch": "direct",
+          "flight_J": 59.302,
+          "hover_J": 12460.355
+        },
+        {
+          "u": 20,
+          "v": 18,
+          "load_g": 383,
+          "branch": "overtop",
+          "flight_J": 8774.472,
+          "hover_J": 11895.997
+        },
+        {
+          "u": 18,
+          "v": 17,
+          "load_g": 278,
+          "branch": "overtop",
+          "flight_J": 934.441,
+          "hover_J": 11130.776
+        },
+        {
+          "u": 17,
+          "v": 42,
+          "load_g": 170,
+          "branch": "overtop",
+          "flight_J": 8240.15,
+          "hover_J": 9210.301
+        },
+        {
+          "u": 42,
+          "v": 25,
+          "load_g": 90,
+          "branch": "overtop",
+          "flight_J": 13017.444,
+          "hover_J": 8714.467
+        },
+        {
+          "u": 25,
+          "v": 0,
+          "load_g": 0,
+          "branch": "overtop",
+          "flight_J": 7837.355,
+          "hover_J": 0.0
+        }
+      ]
+    }
+  ]
+}

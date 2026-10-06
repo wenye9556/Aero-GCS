@@ -1,0 +1,191 @@
+{
+  "sg_120": {
+    "ub_kJ": 2325.0753,
+    "sum_kJ": 2325.032,
+    "recon_err_kJ": -0.043,
+    "hover_kJ": 1360.239,
+    "flight_kJ": 964.793,
+    "flight_direct_kJ": 109.271,
+    "flight_overtop_kJ": 743.597,
+    "flight_bypass_kJ": 111.925,
+    "leg_counts": {
+      "direct": 36,
+      "overtop": 72,
+      "bypass": 22
+    },
+    "routes_n": 11,
+    "max_route_E_kJ": 351.401,
+    "E_MAX_kJ": 360.0,
+    "flat": 491.234,
+    "vert": 1511.841,
+    "obs": 321.958
+  },
+  "sg_60": {
+    "ub_kJ": 1039.7596,
+    "sum_kJ": 1039.736,
+    "recon_err_kJ": -0.023,
+    "hover_kJ": 676.946,
+    "flight_kJ": 362.79,
+    "flight_direct_kJ": 82.044,
+    "flight_overtop_kJ": 241.447,
+    "flight_bypass_kJ": 39.299,
+    "leg_counts": {
+      "direct": 22,
+      "overtop": 36,
+      "bypass": 6
+    },
+    "routes_n": 5,
+    "max_route_E_kJ": 264.817,
+    "E_MAX_kJ": 360.0,
+    "flat": 304.343,
+    "vert": 623.915,
+    "obs": 111.478
+  },
+  "sg_90": {
+    "ub_kJ": 1727.3842,
+    "sum_kJ": 1727.361,
+    "recon_err_kJ": -0.023,
+    "hover_kJ": 1042.177,
+    "flight_kJ": 685.184,
+    "flight_direct_kJ": 83.258,
+    "flight_overtop_kJ": 518.309,
+    "flight_bypass_kJ": 83.618,
+    "leg_counts": {
+      "direct": 27,
+      "overtop": 55,
+      "bypass": 15
+    },
+    "routes_n": 8,
+    "max_route_E_kJ": 333.42,
+    "E_MAX_kJ": 360.0,
+    "flat": 376.223,
+    "vert": 1100.189,
+    "obs": 250.949
+  },
+  "sh_120": {
+    "ub_kJ": 2616.8669,
+    "sum_kJ": 2616.81,
+    "recon_err_kJ": -0.057,
+    "hover_kJ": 1358.081,
+    "flight_kJ": 1258.729,
+    "flight_direct_kJ": 106.357,
+    "flight_overtop_kJ": 949.744,
+    "flight_bypass_kJ": 202.628,
+    "leg_counts": {
+      "direct": 31,
+      "overtop": 72,
+      "bypass": 27
+    },
+    "routes_n": 11,
+    "max_route_E_kJ": 351.979,
+    "E_MAX_kJ": 360.0,
+    "flat": 461.356,
+    "vert": 1713.312,
+    "obs": 442.143
+  },
+  "sh_60": {
+    "ub_kJ": 1153.1484,
+    "sum_kJ": 1153.12,
+    "recon_err_kJ": -0.028,
+    "hover_kJ": 682.287,
+    "flight_kJ": 470.833,
+    "flight_direct_kJ": 49.588,
+    "flight_overtop_kJ": 359.385,
+    "flight_bypass_kJ": 61.861,
+    "leg_counts": {
+      "direct": 23,
+      "overtop": 29,
+      "bypass": 12
+    },
+    "routes_n": 5,
+    "max_route_E_kJ": 319.677,
+    "E_MAX_kJ": 360.0,
+    "flat": 299.172,
+    "vert": 678.417,
+    "obs": 175.531
+  },
+  "sh_90": {
+    "ub_kJ": 1908.525,
+    "sum_kJ": 1908.473,
+    "recon_err_kJ": -0.052,
+    "hover_kJ": 1016.701,
+    "flight_kJ": 891.772,
+    "flight_direct_kJ": 63.589,
+    "flight_overtop_kJ": 714.378,
+    "flight_bypass_kJ": 113.806,
+    "leg_counts": {
+      "direct": 27,
+      "overtop": 49,
+      "bypass": 22
+    },
+    "routes_n": 9,
+    "max_route_E_kJ": 358.702,
+    "E_MAX_kJ": 360.0,
+    "flat": 364.339,
+    "vert": 1243.339,
+    "obs": 300.795
+  },
+  "sz_120": {
+    "ub_kJ": 2131.6824,
+    "sum_kJ": 2131.639,
+    "recon_err_kJ": -0.043,
+    "hover_kJ": 1374.598,
+    "flight_kJ": 757.041,
+    "flight_direct_kJ": 55.936,
+    "flight_overtop_kJ": 598.18,
+    "flight_bypass_kJ": 102.926,
+    "leg_counts": {
+      "direct": 32,
+      "overtop": 78,
+      "bypass": 20
+    },
+    "routes_n": 11,
+    "max_route_E_kJ": 343.415,
+    "E_MAX_kJ": 360.0,
+    "flat": 412.179,
+    "vert": 1428.48,
+    "obs": 290.98
+  },
+  "sz_60": {
+    "ub_kJ": 1130.489,
+    "sum_kJ": 1130.464,
+    "recon_err_kJ": -0.025,
+    "hover_kJ": 687.046,
+    "flight_kJ": 443.418,
+    "flight_direct_kJ": 44.573,
+    "flight_overtop_kJ": 338.694,
+    "flight_bypass_kJ": 60.151,
+    "leg_counts": {
+      "direct": 20,
+      "overtop": 33,
+      "bypass": 11
+    },
+    "routes_n": 5,
+    "max_route_E_kJ": 335.158,
+    "E_MAX_kJ": 360.0,
+    "flat": 267.173,
+    "vert": 683.6,
+    "obs": 179.691
+  },
+  "sz_90": {
+    "ub_kJ": 1772.3368,
+    "sum_kJ": 1772.302,
+    "recon_err_kJ": -0.035,
+    "hover_kJ": 1056.313,
+    "flight_kJ": 715.989,
+    "flight_direct_kJ": 48.843,
+    "flight_overtop_kJ": 599.786,
+    "flight_bypass_kJ": 67.36,
+    "leg_counts": {
+      "direct": 23,
+      "overtop": 60,
+      "bypass": 14
+    },
+    "routes_n": 8,
+    "max_route_E_kJ": 342.165,
+    "E_MAX_kJ": 360.0,
+    "flat": 300.645,
+    "vert": 1230.379,
+    "obs": 241.278
+  }
+}

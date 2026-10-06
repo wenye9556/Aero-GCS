@@ -1,0 +1,6 @@
+
+[05:33:12] === det curve route2 start (SG120, energy-constrained) ===
+CURVE det_iters=100 : LB=1973.70 iters=100 wall=483s K=13 ub=2583.49
+CURVE det_iters=200 : LB=2161.02 iters=200 wall=687s K=13 ub=2595.44
+CURVE det_iters=400 : LB=2189.50 iters=400 wall=1645s K=13 ub=2595.44
+[06:20:07] CURVE COMPLETE (route2)

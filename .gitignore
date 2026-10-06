@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Local Agent / WorkBuddy private memory
+.workbuddy/
+.workbuddy-ai/
+
+# Logs & Temporary test archives
+*.log
+# 主证据入库 (开源口径: results/logs 的证据文件随仓库)
+!results/logs/*.log
+实验结果/logs/
+实验结果_legacy_backup_*/
+实验结果/legacy_archive/
+
+# ===== 开源口径排除 (docs/纪要/paper 不上传, 用户决策 2026-10-01) =====
+docs/
+算法修改记录/
+/paper/
+uav_trajectory.svg
+
+# 根目录中文文档 (仓库只留 README.md)
+参数.md
+模型.md
+算法.md
+实验.md
+可视化.md
+
+# 历史实验目录整体不上传 (迁移时精选主证据复制到 results/logs/, 新路径正常跟踪)
+实验结果/
+
+# 本地产物 (根目录一次性工作脚本, 不入库; experiments/campaigns/_*.py 不受影响)
+/_*.py
+_probe_duals.npz
+nul
+*.tmp
+
+# 论文图渲染链与图表自 2026-10-06 起纳入开源范围
+# (图件复现约定: 克隆者须能从在库 json 重建论文全部图件; 可视化.py 无硬编码数据)
